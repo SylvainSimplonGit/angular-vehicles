@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { VehicleListComponent } from './vehicle-list/vehicle-list.component';
+import { VehicleDetailsComponent } from './vehicle-details/vehicle-details.component';
 
 @NgModule({
   imports:      [ 
@@ -18,7 +19,7 @@ import { VehicleListComponent } from './vehicle-list/vehicle-list.component';
   declarations: [ 
     AppComponent, 
     TopBarComponent, 
-    VehicleListComponent 
+    VehicleListComponent, VehicleDetailsComponent 
   ],
   bootstrap: [
     AppComponent

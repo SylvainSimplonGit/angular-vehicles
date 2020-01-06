@@ -1,5 +1,8 @@
 <h2>Vehicles</h2>
 
 <div *ngFor="let vehicle of vehicles">
-  {{ vehicle.name }}
+  <h3>{{ vehicle.name }}</h3>
+  <app-vehicle-details
+    [vehicle]="vehicle">
+  </app-vehicle-details>
 </div>
